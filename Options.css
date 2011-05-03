@@ -1,68 +1,18 @@
-/*[[slideout]]*/
+/*[[Integration]]*/
 /* Yes. [Enable "Persistent QR" in 4chan X options]: */
-@-moz-document url-prefix(http://boards.4chan.org/a/res/),
- url-prefix(http://boards.4chan.org/b/res/),
- url-prefix(http://boards.4chan.org/c/res/),
- url-prefix(http://boards.4chan.org/d/res/),
- url-prefix(http://boards.4chan.org/e/res/),
- url-prefix(http://boards.4chan.org/g/res/),
- url-prefix(http://boards.4chan.org/gif/res/),
- url-prefix(http://boards.4chan.org/h/res/),
- url-prefix(http://boards.4chan.org/hr/res/),
- url-prefix(http://boards.4chan.org/k/res/),
- url-prefix(http://boards.4chan.org/m/res/),
- url-prefix(http://boards.4chan.org/o/res/),
- url-prefix(http://boards.4chan.org/p/res/),
- url-prefix(http://boards.4chan.org/r/res/),
- url-prefix(http://boards.4chan.org/s/res/),
- url-prefix(http://boards.4chan.org/t/res/),
- url-prefix(http://boards.4chan.org/u/res/),
- url-prefix(http://boards.4chan.org/v/res/),
- url-prefix(http://boards.4chan.org/w/res/),
- url-prefix(http://boards.4chan.org/wg/res/),
- url-prefix(http://boards.4chan.org/i/res/),
- url-prefix(http://boards.4chan.org/ic/res/),
- url-prefix(http://boards.4chan.org/cm/res/),
- url-prefix(http://boards.4chan.org/y/res/),
- url-prefix(http://boards.4chan.org/r9k/res/),
- url-prefix(http://boards.4chan.org/3/res/),
- url-prefix(http://boards.4chan.org/adv/res/),
- url-prefix(http://boards.4chan.org/an/res/),
- url-prefix(http://boards.4chan.org/cgl/res/),
- url-prefix(http://boards.4chan.org/ck/res/),
- url-prefix(http://boards.4chan.org/co/res/),
- url-prefix(http://boards.4chan.org/fa/res/),
- url-prefix(http://boards.4chan.org/fit/res/),
- url-prefix(http://boards.4chan.org/int/res/),
- url-prefix(http://boards.4chan.org/jp/res/),
- url-prefix(http://boards.4chan.org/lit/res/),
- url-prefix(http://boards.4chan.org/mu/res/),
- url-prefix(http://boards.4chan.org/n/res/),
- url-prefix(http://boards.4chan.org/new/res/),
- url-prefix(http://boards.4chan.org/po/res/),
- url-prefix(http://boards.4chan.org/sci/res/),
- url-prefix(http://boards.4chan.org/sp/res/),
- url-prefix(http://boards.4chan.org/tg/res/),
- url-prefix(http://boards.4chan.org/toy/res/),
- url-prefix(http://boards.4chan.org/trv/res/),
- url-prefix(http://boards.4chan.org/tv/res/),
- url-prefix(http://boards.4chan.org/vp/res/),
- url-prefix(http://boards.4chan.org/x/res/){
-/*hide some thing*/
-/* Post Form Cleanup */
-.postarea,	
-        #qr .rules, 
-        #qr .move,
-	#qr #recaptcha_logo,
-	#qr #recaptcha_tagline,
-	#qr .postblock,
-.postarea * {
+body > table ~ .postarea,	
+       body > table ~ #qr .rules, 
+       body > table ~ #qr .move,
+	body > table ~ #qr #recaptcha_logo,
+	body > table ~ #qr #recaptcha_tagline,
+	body > table ~ #qr .postblock,
+body > table ~ .postarea * {
 		display: none !important;
 	}
-form {
+body > table ~ form {
 margin-bottom: 0px !important;
 }
-	#qr {
+	body > table ~ #qr {
                z-index: 1;
                width: 300px !important;
 		position: fixed !important;
@@ -80,28 +30,28 @@ margin-bottom: 0px !important;
                 padding-left: 17px !important;
                 padding-right: 23px !important;
 	}
-		#qr>form:not(:hover) {
+		body > table ~ #qr>form:not(:hover) {
 		display:block !important;
 	}	
-	#qr>form>table>tbody>tr>td>label{
+	body > table ~ #qr>form>table>tbody>tr>td>label{
 		display:block; top:0
-	}/* Spoiler Image Checkbox */
-	#qr>form tr:nth-of-type(3)>td:nth-of-type(3),
-	#qr>form tr:nth-of-type(3)>td:nth-of-type(3),
-	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3) {
-	/* Removes the brackets around Spoiler Image */
+	}
+	body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3),
+	body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3),
+	body > table ~ #quickrep>form tr:nth-of-type(3)>td:nth-of-type(3) {
+	
 		font-size: 0 !important;
 		color: #fff !important;
 	}
-	#qr form[name^="post"] textarea.inputtext {
+	body > table ~ #qr form[name^="post"] textarea.inputtext {
   height: 50px !important;
 width: 300px !important;
 }
 
-	#qr>form td:nth-of-type(3)>label,
-	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
-	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label {
-	/* Spoiler Image label */
+	body > table ~ #qr>form td:nth-of-type(3)>label,
+	body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
+	body > table ~ #quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label {
+	
 		position: absolute;
 		top: auto;
 		font-size: 12px !important;
@@ -110,26 +60,24 @@ width: 300px !important;
 		vertical-align: bottom;
 	}
 
-	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
-	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label {
+	body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
+	body > table ~ #quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label {
 		bottom: 5px;
 		right: 35px;
 	}
 
-	#qr>form td:nth-of-type(3)>label input,
-	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
-	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
-	form[name="delform"]>div:not(.thread) input,
-	.deletebuttons input[type="checkbox"] {
+	body > table ~ #qr>form td:nth-of-type(3)>label input,
+	body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
+	body > table ~ #quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
+	body > table ~ form[name="delform"]>div:not(.thread) input,
+	body > table ~ .deletebuttons input[type="checkbox"] {
 		vertical-align: middle;
 	}
 
-		#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label:nth-of-type(1) {
+		body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label:nth-of-type(1) {
          display: none !important;
 	}
-	
 
-}
 /* No: */
 /* End */
 
