@@ -1,4 +1,4 @@
-@-moz-document domain('boards.4chan.org') {
+s@-moz-document domain('boards.4chan.org') {
 
 
 a { 
@@ -448,6 +448,7 @@ border: none !important;
 /* 4chan X SUPPORT */
 
 /*[[Updater]]*/
+/*[[Integration]]*/
 
 .navlinks {
  right: 226px !important;
@@ -785,8 +786,6 @@ width: 300px !important;
 	}
 
 }
-
-/*[[slideout]]*/
 
 @-moz-document domain('sys.4chan.org') {
 * {
