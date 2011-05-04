@@ -13,8 +13,9 @@ body > table ~ form {
 margin-bottom: 0px !important;
 }
 	body > table ~ #qr {
-               z-index: 1;
-               width: 300px !important;
+                height: 265px !important;
+                z-index: 1;
+                width: 300px !important;
 		position: fixed !important;
                 left: auto !important;
                 top: auto !important;
