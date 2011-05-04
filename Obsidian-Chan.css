@@ -284,6 +284,9 @@ form[name="post"] tr:nth-of-type(6) input[type="button"] {
 
 
 /* POSTAREA */
+input[type="file"] {
+width: 300px !important;
+}    
 form[name="upfile"] {
  background: #000 !important;
 }
@@ -719,8 +722,9 @@ a:hover {
 		display: none !important;
 	}
 	.postarea form:first-child {position: fixed !important;
-               z-index: 1;
-               width: 300px !important;
+                z-index: 1;
+                height: 265px !important;
+                width: 300px !important;
 		position: fixed !important;
                 left: auto !important;
                 top: auto !important;
