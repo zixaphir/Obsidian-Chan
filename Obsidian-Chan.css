@@ -573,6 +573,37 @@ background: url("http://img20.imageshack.us/img20/8720/transparentback2.png") !i
  font-size: 12px;
 }
 
+/* AutoPager Integration */
+.autoPagerS[id^="apBreakStart"] 
+{
+background: url("http://img808.imageshack.us/img808/1228/transparentback.png") !important;
+ width: 100px !important;
+ color: transparent !important;
+  position: relative !important;
+  padding: 0px !important;
+  left: 110px !important;
+  top: 21px !important;
+  text-align: left !important;
+  line-height:15px !important;
+  height:15px !important;
+  border: 1px solid #111 !important;
+  z-index: -10;
+}
+a[name="xxAutoPagerimmedialate-load"], input[name="xxAutoPagerimmedialate-load-count"], .autoPagerS[id^="apBreakStart"] a:first-of-type 
+{ 
+  display: none !important;
+}
+.autoPagerS[id^="apBreakStart"] a 
+{ 
+  color: #999 !important; 
+}
+.autoPagerS[id^="apBreakStart"]::before
+{
+  position: relative !important;
+  left: 30px !important;
+  content: "Page" !important;
+  color: #555 !important;
+}
 
 /* /b/ackwash reloaded SUPPORT */
 .backlink {
@@ -734,7 +765,7 @@ a:hover {
 		-moz-transition: right .3s linear;
 		-o-transition: right .3s linear;
                 border-right: none !important;
-                border-left: none !important;
+                border-left: 1px solid #333 !important;
                 padding-top: 3px !important;
                 padding-bottom: 3px !important;
                 padding-left: 17px !important;
