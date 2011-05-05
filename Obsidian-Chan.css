@@ -530,7 +530,7 @@ td[style="padding-left: 7px;"] {
 /* 4chan Plus SUPPORT */
 #quickrep, #boardsMenu, div.navbar1, div.navbar2, div.navbar3 {
    -webkit-box-shadow: none !important;
-   background: background: rgba(0, 0, 0, 0.7) none !important;
+   background: rgba(0, 0, 0, 0.7) none !important;
 }
 #crntBoard {
    -webkit-box-shadow: none !important;
