@@ -588,7 +588,7 @@ background: url("http://img808.imageshack.us/img808/1228/transparentback.png") !
   border: 1px solid #111 !important;
   z-index: -10;
 }
-a[name="xxAutoPagerimmedialate-load"], input[name="xxAutoPagerimmedialate-load-count"], .autoPagerS[id^="apBreakStart"] a:first-of-type 
+a[name="xxAutoPagerimmedialate-load"], input[name="xxAutoPagerimmedialate-load-count"], .autoPagerS[id^="apBreakStart"] a:first-of-type, div.autoPagerS a:first-child, div.autoPagerS img 
 { 
   display: none !important;
 }
