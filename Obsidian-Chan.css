@@ -596,6 +596,13 @@ a[name="xxAutoPagerimmedialate-load"], input[name="xxAutoPagerimmedialate-load-c
 { 
   color: #999 !important; 
 }
+#autoPagerBorderPaging.autoPagerS {
+  background-color: #000 !important;
+  opacity: 0.60 !important;
+  border: 1px solid #000 !important;
+  padding: 2px 5px 4px !important;
+  margin: 0 0 1px 0 !important; 
+}
 .autoPagerS[id^="apBreakStart"]::before
 {
   position: relative !important;
