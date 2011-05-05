@@ -118,7 +118,7 @@ body > form {
    padding: 20px;
    padding-top: 0px !important;
    padding-bottom: 30px !important;
-   background: url("http://img808.imageshack.us/img808/1228/transparentback.png") !important;
+   background: rgba(0, 0, 0, 0.7) none !important;
    border: 1px solid #333 !important;
    -moz-border-radius: 1em 4em 1em 4em;
    border-radius: 1em 4em 1em 4em;
@@ -171,7 +171,7 @@ hr {
    height: 20px;
    width: 80px;
    color: #ddd !important;
-   background: url("http://img808.imageshack.us/img808/1228/transparentback.png") !important;
+   background: rgba(0, 0, 0, 0.3) none !important;
    border: 1px solid #333 !important;
    border-left: none !important;
    border-top: none !important;
@@ -214,7 +214,7 @@ hr {
    right: auto !important;
    width: 310px !important;
    height: 40px !important;
-   background: url("http://img808.imageshack.us/img808/1228/transparentback.png") !important;
+   background: rgba(0, 0, 0, 0.9) none !important;
    border-top: none !important;
    word-spacing: -3px;
    overflow: hidden;
@@ -373,7 +373,7 @@ td.replyhl {
    padding-bottom: 3px !important;
    padding-left: 17px !important;
    padding-right: 23px !important;
-   background: url("http://img20.imageshack.us/img20/8720/transparentback2.png") !important;
+   background: rgba(0, 0, 0, 0.3) none !important;
    border-top: 1px solid #333 !important;
    border-bottom: 1px solid #333 !important;
 }
@@ -530,7 +530,7 @@ td[style="padding-left: 7px;"] {
 /* 4chan Plus SUPPORT */
 #quickrep, #boardsMenu, div.navbar1, div.navbar2, div.navbar3 {
    -webkit-box-shadow: none !important;
-   background: url("http://img808.imageshack.us/img808/1228/transparentback.png") !important;
+   background: background: rgba(0, 0, 0, 0.7) none !important;
 }
 #crntBoard {
    -webkit-box-shadow: none !important;
@@ -597,7 +597,7 @@ form[name="delform"] table:not(.pages) > tbody > tr > td {
    border-top: 1px solid #333 !important;
    border-bottom: 1px solid #333 !important;
    border-left: 1px solid #333 !important;
-   background: url("http://img20.imageshack.us/img20/8720/transparentback2.png") !important;
+   background: rgba(0, 0, 0, 0.3) none !important;
 }
 #updater .move, #options .move {
    cursor: default !important;
@@ -666,7 +666,7 @@ form[name="delform"] table:not(.pages) > tbody > tr > td {
 
 /* AutoPager Integration */
 .autoPagerS[id^="apBreakStart"] {
-   background: url("http://img808.imageshack.us/img808/1228/transparentback.png") !important;
+   background: rgba(0, 0, 0, 0.7) none !important;
    width: 100px !important;
    color: transparent !important;
    position: relative !important;
