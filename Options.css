@@ -32,8 +32,8 @@ body > table ~ #qr>form>table>tbody>tr>td>label {
    top: 0;
 }
 body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3), body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3), body > table ~ #quickrep>form tr:nth-of-type(3)>td:nth-of-type(3) {
-   font-size: 0 !important;
-   color: #fff !important;
+   font-size: 0px !important;
+   color: transparent !important;
 }
 body > table ~ #qr form[name^="post"] textarea.inputtext {
    height: 50px !important;
