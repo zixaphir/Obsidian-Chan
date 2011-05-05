@@ -448,10 +448,6 @@ div.postarea>form:not(:hover) {
 div.postarea>form>table>tbody>tr>td>label {
   display:block; top:0
 }
-#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label, #quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label {
-  bottom: 14px;
-  right: 70px;
-}
   /* 'Spoiler Image?': */
 div.postarea>form tr:nth-of-type(3)>td:nth-of-type(3), #qr>form tr:nth-of-type(3)>td:nth-of-type(3), #quickrep>form tr:nth-of-type(3)>td:nth-of-type(3) {
     /* bracket removal: */
