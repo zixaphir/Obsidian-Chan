@@ -39,7 +39,10 @@ body > table ~ #qr form[name^="post"] textarea.inputtext {
    height: 50px !important;
    width: 300px !important;
 }
-body > table ~ #qr label, body > table ~ #quickrep label {
+body > table ~ #qr label:first-of-type {
+  display: none !important;
+}
+body > table ~ #qr label:last-of-type {
    position: absolute;
    color: #fff !important;
    top: auto;
@@ -99,10 +102,13 @@ body > table ~ #qr form[name^="post"] textarea.inputtext {
    height: 50px !important;
    width: 300px !important;
 }
-body > table ~ #qr label, body > table ~ #quickrep label {
+body > table ~ #qr label:first-of-type {
+  display: none !important;
+}
+body > table ~ #qr label:last-of-type {
    position: absolute;
-   top: auto;
    color: #fff !important;
+   top: auto;
    font-size: 12px !important;
    bottom: 5px;
    right: 35px;
