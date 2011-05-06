@@ -464,7 +464,7 @@ div.postarea>form td:nth-of-type(3)>label, #qr>form tr:nth-of-type(3)>td:nth-of-
   position: absolute;
   top: auto;
   font-size: 12px !important;
-  bottom: 5px ;
+  bottom: 15px ;
   right: 35px;
   vertical-align: bottom;
 }
@@ -478,8 +478,12 @@ div.postarea>form td:nth-of-type(3)>label input, #qr>form tr:nth-of-type(3)>td:n
 #recaptcha_table td:nth-of-type(3), #recaptcha_switch_audio_btn, #recaptcha_switch_img_btn, #recaptcha_whatsthis_btn {
   display: none;
 }
+input[name="recaptcha_response_field"] {
+width: 300px !important;
+}
 #recaptcha_table {
-  margin-top: 7px !important;
+  margin-top: 0px !important;
+  width: 298px !important;
 }
 #recaptcha_widget_div td {
   padding: 0px !important;
@@ -509,8 +513,12 @@ div.postarea>form td:nth-of-type(3)>label input, #qr>form tr:nth-of-type(3)>td:n
 #recaptcha_table tr:first-of-type {
   height: 58px !important;
 }
+#recaptcha_widget_div, #recaptcha_image img, #recaptcha_image {
+width: 297px !important;
+}
 .recaptchatable .recaptcha_image_cell {
   padding: 0px !important;
+  width: 297px !important;
 }
 td[style="padding-left: 7px;"] {
   padding-left: 0px !important;
