@@ -39,8 +39,9 @@ body > table ~ #qr form[name^="post"] textarea.inputtext {
    height: 50px !important;
    width: 300px !important;
 }
-body > table ~ #qr>form td:nth-of-type(3)>label, body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label, body > table ~ #quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label {
+body > table ~ #qr label, body > table ~ #quickrep label {
    position: absolute;
+   color: #fff !important;
    top: auto;
    font-size: 12px !important;
    bottom: 5px;
@@ -53,9 +54,6 @@ body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label, body > table 
 }
 body > table ~ #qr>form td:nth-of-type(3)>label input, body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input, body > table ~ #quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label input, body > table ~ form[name="delform"]>div:not(.thread) input, body > table ~ .deletebuttons input[type="checkbox"] {
    vertical-align: middle;
-}
-body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label:nth-of-type(1) {
-   display: none !important;
 }
 #updater {
    display: none !important;
@@ -101,9 +99,10 @@ body > table ~ #qr form[name^="post"] textarea.inputtext {
    height: 50px !important;
    width: 300px !important;
 }
-body > table ~ #qr>form td:nth-of-type(3)>label, body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label, body > table ~ #quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label {
+body > table ~ #qr label, body > table ~ #quickrep label {
    position: absolute;
    top: auto;
+   color: #fff !important;
    font-size: 12px !important;
    bottom: 5px;
    right: 35px;
@@ -115,9 +114,6 @@ body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label, body > table 
 }
 body > table ~ #qr>form td:nth-of-type(3)>label input, body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input, body > table ~ #quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label input, body > table ~ form[name="delform"]>div:not(.thread) input, body > table ~ .deletebuttons input[type="checkbox"] {
    vertical-align: middle;
-}
-body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label:nth-of-type(1) {
-   display: none !important;
 }
 /* Don't enable / Don't care */
 /* End */
