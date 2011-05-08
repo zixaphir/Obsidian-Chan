@@ -423,7 +423,7 @@ td.replyhl {
 .postarea form:first-child {
   position: fixed !important;
   z-index: 1;
-  height: 265px !important;
+  height: 258px !important;
   width: 300px !important;
   position: fixed !important;
   left: auto !important;
