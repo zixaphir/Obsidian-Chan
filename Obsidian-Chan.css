@@ -493,6 +493,7 @@ div.postarea>form td:nth-of-type(3)>label input, #qr>form tr:nth-of-type(3)>td:n
 input[name="recaptcha_response_field"] {
   width: 300px !important;
   outline: none !important;
+  box-shadow: none !important;
 }
 #recaptcha_table {
   margin-top: 0px !important;
