@@ -453,7 +453,7 @@ div.postarea>form>table>tbody>tr>td>label {
 div.postarea>form tr:nth-of-type(3)>td:nth-of-type(3), #qr>form tr:nth-of-type(3)>td:nth-of-type(3), #quickrep>form tr:nth-of-type(3)>td:nth-of-type(3) {
     /* bracket removal: */
   font-size: 0 !important;
-  color: #fff !important;
+  color: transparent !important;
 }
 .postarea form[name^="post"] textarea.inputtext {
   height: 50px !important;
@@ -464,6 +464,7 @@ div.postarea>form td:nth-of-type(3)>label, #qr>form tr:nth-of-type(3)>td:nth-of-
     /* Label: */
   position: absolute;
   top: auto;
+  color: #fff !important;
   font-size: 12px !important;
   bottom: 15px ;
   right: 35px;
