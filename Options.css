@@ -1,127 +1,195 @@
 /*[[Integration]]*/
 /* Enable, and hide updater.: */
-body > table ~ .postarea, body > table ~ #qr .rules, body > table ~ #qr .move, body > table ~ #qr #recaptcha_logo, body > table ~ #qr #recaptcha_tagline, body > table ~ #qr .postblock, body > table ~ .postarea * {
-   display: none !important;
+body > table ~ .postarea {
+  display: none !important;
+}
+input::-webkit-input-placeholder, isindex::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  font-size: 0px !important;
+  color: transparent !important;
+}
+body > table ~ #qr .recaptchatable {
+  margin-top: 1px !important;
+}
+body > table ~ #qr input[name="name"], body > table ~ #qr input[name="email"] {
+  width: 300px !important;
+  margin-top: 1px !important;
+}
+body > table ~ #qr input[name="sub"], body > table ~ #qr textarea[name="com"] {
+  margin-top: 1px !important;
+}
+#qr #recaptcha_reload {
+  right: -16px !important;
+  bottom: -6px !important;
+}
+body > table ~ #qr input[name="upfile"], body > table ~ #qr input[name="pwd"] {
+  margin-top: 3px !important;
+}
+body > table ~ #qr input[name="recaptcha_response_field"] {
+  margin-top: 2px !important;
+}
+body > table ~ #qr .move {
+  font-size: 0px !important;
+}
+body > table ~ #qr a[name="close"] {
+  display: none !important;
+}
+body > table ~ #qr input[id="autohide"] {
+  display: none !important;
+}
+#qr_form {
+  height: auto !important;
+  overflow: visible !important;
 }
 body > table ~ form {
-   margin-bottom: 0px !important;
+  margin-bottom: 0px !important;
 }
 body > table ~ #qr {
-   height: 265px !important;
-   z-index: 1;
-   width: 300px !important;
-   position: fixed !important;
-   left: auto !important;
-   top: auto !important;
-   bottom: 160px !important;
-   right: 0px !important;
-   -webkit-transition: right .3s linear;
-   -moz-transition: right .3s linear;
-   -o-transition: right .3s linear;
-   border-right: none !important;
-   padding-top: 3px !important;
-   padding-bottom: 3px !important;
-   padding-left: 17px !important;
-   padding-right: 23px !important;
+  height: 265px !important;
+  z-index: 1;
+  width: 300px !important;
+  position: fixed !important;
+  left: auto !important;
+  top: auto !important;
+  bottom: 160px !important;
+  right: 0px !important;
+  -webkit-transition: right .3s linear;
+  -moz-transition: right .3s linear;
+  -o-transition: right .3s linear;
+  border-right: none !important;
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+  padding-left: 19px !important;
+  padding-right: 21px !important;
 }
 body > table ~ #qr>form:not(:hover) {
-   display:block !important;
+  display:block !important;
+  visibility: visible !important;
 }	
 body > table ~ #qr>form>table>tbody>tr>td>label {
-   display:block; 
-   top: 0;
+  display:block; 
+  top: 0;
 }
-body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3), body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3), body > table ~ #quickrep>form tr:nth-of-type(3)>td:nth-of-type(3) {
-   font-size: 0px !important;
-   color: transparent !important;
-}
+
 body > table ~ #qr form[name^="post"] textarea.inputtext {
-   height: 50px !important;
-   width: 300px !important;
+  height: 50px !important;
+  width: 300px !important;
 }
 body > table ~ #qr label:first-of-type {
   display: none !important;
 }
 body > table ~ #qr label:last-of-type {
-   position: absolute;
-   color: #fff !important;
-   top: auto;
-   font-size: 12px !important;
-   bottom: 5px;
-   right: 35px;
-   vertical-align: bottom;
+  position: absolute;
+  color: #fff !important;
+  top: auto;
+  font-size: 12px !important;
+  bottom: 5px;
+  right: 35px;
+  vertical-align: bottom;
 }
 body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label, body > table ~ #quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label {
-   bottom: 5px;
-   right: 35px;
+  bottom: 5px;
+  right: 35px;
 }
 body > table ~ #qr>form td:nth-of-type(3)>label input, body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input, body > table ~ #quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label input, body > table ~ form[name="delform"]>div:not(.thread) input, body > table ~ .deletebuttons input[type="checkbox"] {
-   vertical-align: middle;
+  vertical-align: middle;
 }
 #updater {
-   display: none !important;
+  display: none !important;
 }
-	
+
 /* Enable, and do not hide updater. */
-body > table ~ .postarea, body > table ~ #qr .rules, body > table ~ #qr .move, body > table ~ #qr #recaptcha_logo, body > table ~ #qr #recaptcha_tagline, body > table ~ #qr .postblock, body > table ~ .postarea * {
-   display: none !important;
+body > table ~ .postarea {
+  display: none !important;
+}
+input::-webkit-input-placeholder, isindex::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  font-size: 0px !important;
+  color: transparent !important;
+}
+body > table ~ #qr .recaptchatable {
+  margin-top: 1px !important;
+}
+body > table ~ #qr input[name="name"], body > table ~ #qr input[name="email"] {
+  width: 300px !important;
+  margin-top: 1px !important;
+}
+body > table ~ #qr input[name="sub"], body > table ~ #qr textarea[name="com"] {
+  margin-top: 1px !important;
+}
+#qr #recaptcha_reload {
+  right: -16px !important;
+  bottom: -6px !important;
+}
+body > table ~ #qr input[name="upfile"], body > table ~ #qr input[name="pwd"] {
+  margin-top: 3px !important;
+}
+body > table ~ #qr input[name="recaptcha_response_field"] {
+  margin-top: 2px !important;
+}
+body > table ~ #qr .move {
+  font-size: 0px !important;
+}
+body > table ~ #qr a[name="close"] {
+  display: none !important;
+}
+body > table ~ #qr input[id="autohide"] {
+  display: none !important;
+}
+#qr_form {
+  height: auto !important;
+  overflow: visible !important;
 }
 body > table ~ form {
-   margin-bottom: 0px !important;
+  margin-bottom: 0px !important;
 }
 body > table ~ #qr {
-   height: 265px !important;
-   z-index: 1;
-   width: 300px !important;
-   position: fixed !important;
-   left: auto !important;
-   top: auto !important;
-   bottom: 160px !important;
-   right: 0px !important;
-   -webkit-transition: right .3s linear;
-   -moz-transition: right .3s linear;
-   -o-transition: right .3s linear;
-   border-right: none !important;
-   padding-top: 3px !important;
-   padding-bottom: 3px !important;
-   padding-left: 17px !important;
-   padding-right: 23px !important;
+  height: 265px !important;
+  z-index: 1;
+  width: 300px !important;
+  position: fixed !important;
+  left: auto !important;
+  top: auto !important;
+  bottom: 160px !important;
+  right: 0px !important;
+  -webkit-transition: right .3s linear;
+  -moz-transition: right .3s linear;
+  -o-transition: right .3s linear;
+  border-right: none !important;
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+  padding-left: 19px !important;
+  padding-right: 21px !important;
 }
 body > table ~ #qr>form:not(:hover) {
-   display:block !important;
+  display:block !important;
+  visibility: visible !important;
 }	
 body > table ~ #qr>form>table>tbody>tr>td>label {
-   display:block; 
-   top: 0;
+  display:block; 
+  top: 0;
 }
-body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3), body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3), body > table ~ #quickrep>form tr:nth-of-type(3)>td:nth-of-type(3) {
-   font-size: 0 !important;
-   color: #fff !important;
-}
+
 body > table ~ #qr form[name^="post"] textarea.inputtext {
-   height: 50px !important;
-   width: 300px !important;
+  height: 50px !important;
+  width: 300px !important;
 }
 body > table ~ #qr label:first-of-type {
   display: none !important;
 }
 body > table ~ #qr label:last-of-type {
-   position: absolute;
-   color: #fff !important;
-   top: auto;
-   font-size: 12px !important;
-   bottom: 5px;
-   right: 35px;
-   vertical-align: bottom;
+  position: absolute;
+  color: #fff !important;
+  top: auto;
+  font-size: 12px !important;
+  bottom: 5px;
+  right: 35px;
+  vertical-align: bottom;
 }
 body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label, body > table ~ #quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label {
-   bottom: 5px;
-   right: 35px;
+  bottom: 5px;
+  right: 35px;
 }
 body > table ~ #qr>form td:nth-of-type(3)>label input, body > table ~ #qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input, body > table ~ #quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label input, body > table ~ form[name="delform"]>div:not(.thread) input, body > table ~ .deletebuttons input[type="checkbox"] {
-   vertical-align: middle;
+  vertical-align: middle;
 }
 /* Don't enable / Don't care */
 /* End */
-
-
