@@ -44,7 +44,7 @@ body > table ~ form {
   margin-bottom: 0px !important;
 }
 body > table ~ #qr {
-  height: 265px !important;
+  height: 258px !important;
   z-index: 1;
   width: 300px !important;
   position: fixed !important;
@@ -141,7 +141,7 @@ body > table ~ form {
   margin-bottom: 0px !important;
 }
 body > table ~ #qr {
-  height: 265px !important;
+  height: 258px !important;
   z-index: 1;
   width: 300px !important;
   position: fixed !important;
