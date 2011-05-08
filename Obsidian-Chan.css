@@ -106,6 +106,15 @@ th font {
 input[type="submit"]:not([value="Previous"]):not([value="Next"]) { 
   vertical-align: bottom !important; 
 }
+.filesize span {
+  font-size: 0 !important;
+  visibility: hidden;
+}
+filesize span:after {
+  content: attr(title);
+  font-size: 11px !important;
+  visibility: visible;
+}
 td.deletebuttons > .inputtext {
   width: 100px !important; 
 }
@@ -571,6 +580,8 @@ form .pointer {
 #iHover { /* Image hover */
   box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.7);
   z-index: 10;
+  max-width: 900px !important;
+  max-height: 700px !important;
 }
       /* Image expansion: */
 form > div:first-child > label {
