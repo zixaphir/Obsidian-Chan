@@ -2,7 +2,7 @@
  *	by seaweed !Ponyo.2wFE
  * 
  * Set up the following way for easy modification:
- * [Use your editor/browser's search function]
+* [Use your editor/browser's search function]
  * 
  * CHAPTER 1: Colors
  * CHAPTER 2: General
@@ -81,9 +81,7 @@ input[type="button"], td[align="right"] {
 a { /* Hides annoying outline around links you've clicked. */
   outline: none !important; 
 }
-a[href*="jlist"], a[href*="ads"], #recaptcha_table td:nth-of-type(3), #recaptcha_switch_audio_btn, #recaptcha_switch_img_btn, #recaptcha_whatsthis_btn, form > input + div,
-hr, body > br, body > span, body > form > hr:last-of-type + span,
-body > table, form > div > select, .thread > br {
+a[href*="jlist"], a[href*="ads"], #recaptcha_table td:nth-of-type(3), #recaptcha_switch_audio_btn, #recaptcha_switch_img_btn, #recaptcha_whatsthis_btn, hr, body > br, body > span, body > form > hr:last-of-type + span, body > table, form > div > select, .thread > br {
   display: none !important;
 }
 pre, textarea, input:not([type="button"]):not([type="checkbox"]):not([type="submit"]):not([type="reset"]), select { 
@@ -150,6 +148,9 @@ input[type="text"], input[type="password"], input[type="button"], input[type="su
 input[type="password"] {
   width: 300px !important;
 }
+input[type="file"], input[name="name"], input[name="email"] {
+  width: 300px !important;
+} 
 form[name="post"] input[type="button"] {
   padding: 0px 4px 2px 4px;
   margin-left: 2px;
@@ -479,8 +480,8 @@ div.postarea>form td:nth-of-type(3)>label input, #qr>form tr:nth-of-type(3)>td:n
   display: none;
 }
 input[name="recaptcha_response_field"] {
-width: 300px !important;
-outline: none !important;
+  width: 300px !important;
+  outline: none !important;
 }
 #recaptcha_table {
   margin-top: 0px !important;
@@ -602,6 +603,9 @@ form[name="delform"] table:not(.pages) > tbody > tr > td {
   border-bottom: 1px solid #333 !important;
   border-left: 1px solid #333 !important;
   background: rgba(0, 0, 0, 0.3) none !important;
+}
+#qr_captcha input {
+border-color: #222 !important;
 }
 #updater .move, #options .move {
   cursor: default !important;
